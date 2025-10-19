@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var persona_1 = require("./persona");
+var persona = new persona_1.Persona("Pepe", "Rodiguez", "identificacion", "estadoCivil");
+console.log(persona);
+var estudiante_1 = require("./estudiante");
+var estudiante = new estudiante_1.Estudiante("nombres", "apellidos", "identificacion", "estadoCivil", "curso", "matricula");
+console.log(estudiante);
+var empleado_1 = require("./empleado");
+var empleado = new empleado_1.Empleado("nombres", "apellidos", "identificacion", "estadoCivil", Number(), Number());
+console.log(empleado);
+var personalServicio_1 = require("./personalServicio");
+var personalservicio = new personalServicio_1.PersonalServicio("nombres", "apellidos", "identificacion", "estadoCivil", Number(), Number(), "seccion");
+console.log(personalservicio);
+var profesor_1 = require("./profesor");
+var profesor = new profesor_1.Profesor("nombres", "apellidos", "identificacion", "estadoCivil", Number(), Number(), "departamento");
+console.log(profesor);
